@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.team h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.score {
+    background: black;
+    color: #F94F6D;
+    font-size: 90px;
+    width: 155px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.buttons button {
+    background: transparent;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background: #9AABD8;
+    color: #1B244A;
+}
+
+.new-game {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#new-game-btn {
+    background: transparent;
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#new-game-btn:hover {
+    background: #9AABD8;
+    color: #1B244A;
+}
+
+/* کلاس برای تیم برنده */
+.leader {
+    color: #F94F6D;
+    text-shadow: 0 0 10px #F94F6D;
+}
